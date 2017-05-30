@@ -2,8 +2,9 @@ package gen
 
 import (
 	"fmt"
-	"github.com/tinylib/msgp/msgp"
 	"io"
+
+	"github.com/antoniomo/msgp/msgp"
 )
 
 func marshal(w io.Writer) *marshalGen {

@@ -2,8 +2,9 @@ package gen
 
 import (
 	"fmt"
-	"github.com/tinylib/msgp/msgp"
 	"io"
+
+	"github.com/antoniomo/msgp/msgp"
 )
 
 func encode(w io.Writer) *encodeGen {
